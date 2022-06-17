@@ -446,6 +446,10 @@ name_obj_dic['WindTurbine']=WindTurbine
 ThermalPower=unit('ThermalPower')
 ThermalPower.setFormula(12,0,2,[[iron,10],[stone,4],[gear,4],[MagneticCoil,4]])
 name_obj_dic['ThermalPower']=ThermalPower
+#地热发电机
+geothermal=unit('geothermal')
+geothermal.setFormula(10,0,2,[[steel,15],[copper,20],[photonCombiner,4],[blueMotor,1]])
+name_obj_dic['geothermal']=geothermal
 
 SolarPanel=unit('SolarPanel')
 SolarPanel.setFormula(10,0,2,[[copper,10],[silicon,10]])
@@ -578,6 +582,10 @@ name_obj_dic['Fractionator']=Fractionator
 coater=unit('coater')
 coater.setFormula(20,0,2,[[steel,4],[plasma,2],[cicuitBoard,2],[electronic,2]])
 name_obj_dic['coater']=coater
+#自动装集器
+piler=unit('piler')
+piler.setFormula(15,0,2,[[steel,3],[gear,4],[blueMotor,1],[cpu,2]])
+name_obj_dic['piler']=piler
 
 ChemicalPlant=unit('ChemicalPlant')
 ChemicalPlant.setFormula(12,0,2,[[steel,8],[stone,8],[glass,8],[cicuitBoard,2]])

@@ -27,8 +27,8 @@ kuangmai = ['organicCrystal', 'ironOre', 'copperOre', 'stoneOre', 'coalOre', 'si
 material_level_4 = ['Fractionator', 'ChemicalPlant', 'coater', 'Smelter2', 'Smelter1', 'Assembing3', 'Assembing2', 'Assembing1',
                     'launchingSilo', 'Lab', 'MiniatureParticleCollider', 'OliRefinery', 'OilExtrator', 'WaterPump',
                     'MiningMachine', 'Sorter3', 'Sorter2', 'Sorter1', 'EMRail', 'OrbitalCollector',
-                    'InterStellarLogistics', 'PlanetaryLogistics', 'StorageTank', 'Storage2', 'Storage1', 'Splitter',
-                    'Conveyor3', 'Conveyor2', 'Conveyor1', 'ArtificialStar', 'RayReceiver', 'EnergyExchanger',
+                    'InterStellarLogistics', 'PlanetaryLogistics', 'StorageTank', 'Storage2', 'Storage1', 'Splitter','piler',
+                    'Conveyor3', 'Conveyor2', 'Conveyor1', 'ArtificialStar', 'RayReceiver', 'EnergyExchanger','geothermal',
                     'AccumulatorFull', 'Accumulator', 'MiniFusionPowerPlant', 'SolarPanel', 'ThermalPowerPlant',
                     'WindTurbine', 'SatalliteSubstation', 'WirelessPowerTower', 'TeslaTower']
 material_all = material_level_4 + material_level_3 + material_level_2 + material_level_1 + material_level_0 + kuangmai
@@ -106,7 +106,7 @@ image_files = {}
 
 strExc = 'ironOre	copperOre	stoneOre	coalOre	siliconOre	titaniumOre	water	crudeOil	H	heavyH	antimatter	kimberley	iron	copper	stone	graphite	silicon	titanium	vitriol	refineOil	HfuelRod	HHfuelRod	antifuelRod	partingSi	magnet	MagneticCoil	glass	diamond	latticeSilicon	titaniumAlloy	cIce	plastics	organicCrystal	graphene	propeller	raster	steel	cicuitBoard	prism	motor	electronic	mk1	CasimirCrystal	singularity	Ticrystal	cnt	propellerPlus	stabShoot	gear	plasma	photonCombiner	greenMotor	cpu	mk2	kong	limiter	Tiglass	ParticleW	craft	singlePole	foundation	criticalPhoton	ParticleContainer	blueMotor	gravityMirror	mk3	kong	spaceWarp	planesFilter	quantumCpu	spacceCraft	kong	blueCube	redCube	yellowCube	purpleCube	greenCube	whiteCube	kong	solarSail	frame	dysonComponent	rocket	kong	'
 str1 = 'kong	kong	kong	kong	kong	kong	kong	kong	kong	kong	kong	kong	'
-str2 = 'TeslaTower	WirelessPowerTower	SatalliteSubstation	WindTurbine	ThermalPowerPlant	SolarPanel	MiniFusionPowerPlant	Accumulator	kong	EnergyExchanger	RayReceiver	ArtificialStar	Conveyor1	Conveyor2	Conveyor3	Splitter	Storage1	Storage2	StorageTank	PlanetaryLogistics	InterStellarLogistics	OrbitalCollector	EMRail	kong	Sorter1	Sorter2	Sorter3	MiningMachine	WaterPump	OilExtrator	OliRefinery	MiniatureParticleCollider	Lab	launchingSilo	kong	kong	Assembing1	Assembing2	Assembing3	Smelter1	Smelter2	coater	ChemicalPlant	Fractionator	kong	kong	kong	kong	kong'
+str2 = 'TeslaTower	WirelessPowerTower	SatalliteSubstation	WindTurbine	ThermalPowerPlant	SolarPanel	MiniFusionPowerPlant	Accumulator	geothermal	EnergyExchanger	RayReceiver	ArtificialStar	Conveyor1	Conveyor2	Conveyor3	Splitter	piler	Storage1	Storage2	StorageTank	PlanetaryLogistics	InterStellarLogistics	OrbitalCollector	EMRail	Sorter1	Sorter2	Sorter3	MiningMachine	WaterPump	OilExtrator	OliRefinery	MiniatureParticleCollider	Lab	launchingSilo	kong	kong	Assembing1	Assembing2	Assembing3	Smelter1	Smelter2	coater	ChemicalPlant	Fractionator	kong	kong	kong	kong'
 strExc = strExc + str1 + str2
 ls_shunxu = strExc.split('\t')
 for name in ls_shunxu:
